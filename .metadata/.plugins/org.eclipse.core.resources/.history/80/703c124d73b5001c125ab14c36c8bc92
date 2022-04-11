@@ -1,0 +1,20 @@
+package com.selenium.driver;
+
+import org.openqa.selenium.WebDriver;
+
+public class googlenextpage {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		WebDriver driver;
+		
+	String driverHome=System.getProperty("user.dir");
+	String driverPath=driverHome+"//Drivers//geckodriver.exe";
+	System.setProperty("webdriver.gecko.driver",driverPath);
+	driver=new FirefoxDriver();
+		
+	}
+
+}

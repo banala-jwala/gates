@@ -1,0 +1,44 @@
+package com.selenium.driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class program1 {
+
+	public static void main(String[] args) throws Throwable {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		String driverhome=System.getProperty("user.dir");
+		String driverPath=driverhome+("//Drivers//chromedriver.exe");
+		System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",driverPath);
+		 driver =new ChromeDriver();
+		 String gmailURL="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp";
+		
+		 driver.get(gmailURL);
+		 String firstname="jwala";
+		 String lastname="banala";
+		 String username="HLO";
+		 String password="welcome@456";
+		 
+		 
+		 WebElement txtfirstname=driver.findElement(By.id("firstname"));
+		 WebElement txtlastname=driver.findElement(By.id("lastname"));
+		 WebElement txtusername=driver.findElement(By.id("username"));
+		 WebElement txtpassword=driver.findElement(By.name("passwd"));
+		 WebElement txtconformpassword=driver.findElement(By.name("conformpasswd"));
+
+		 txtfirstname.sendKeys(firstname);
+		 txtlastname.sendKeys(lastname);
+		 txtusername.sendKeys(username);
+		 txtpassword.sendKeys(password);
+		 txtconformpassword.sendKeys(password);
+		 	 
+		 Thread.sleep(6000);
+		 driver.quit();
+		}
+
+
+}

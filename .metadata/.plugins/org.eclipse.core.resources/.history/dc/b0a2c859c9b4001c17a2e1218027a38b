@@ -1,0 +1,47 @@
+package com.selenium.driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class netflix {
+
+	private static final String NetflixURL = null;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver;
+		String driverHome=System.getProperty("user.dir");
+		String driverPath=driverHome+"//drivers//geckodriver.exe";
+		System.getProperty("user.dir");
+		System.setProperty("webdriver.gecko.driver",driverPath);
+		 driver =new FirefoxDriver();
+		 String NetflixURL="https://www.netflix.com/in/login";
+		 
+		 
+		 driver.get(NetflixURL);
+		 
+		 String emailID="Vinayakaganesh@gmail.com";
+		 
+		 String password="Cuf3462";
+		 
+	
+	WebElement txtemailID=driver.findElement(By.id("email"));
+	
+	WebElement txtPassword=driver.findElement(By.id("password"));
+
+
+
+	txtemailID.sendKeys(emailID);
+
+	txtPassword.sendKeys(password);
+		 
+		 Thread.sleep(6000);
+		 driver.quit();
+		 
+		}
+	
+	}
+
+}

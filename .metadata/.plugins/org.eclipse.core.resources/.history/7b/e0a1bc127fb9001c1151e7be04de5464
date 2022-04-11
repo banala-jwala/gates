@@ -1,0 +1,15 @@
+package com.neo.testcase;
+
+import org.testng.annotations.Test;
+
+public class testCase extends BaseClass
+{
+@Test
+public void test()
+{
+
+	driver.get(baseUrl);
+	
+}
+
+}

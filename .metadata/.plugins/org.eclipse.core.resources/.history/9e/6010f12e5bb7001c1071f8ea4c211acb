@@ -1,0 +1,5 @@
+package com.neo.PageObjects;
+
+public class BaseClass {
+
+}

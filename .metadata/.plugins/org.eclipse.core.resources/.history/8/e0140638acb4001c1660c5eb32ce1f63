@@ -1,0 +1,28 @@
+package com.selenium.driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Program {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+	WebDriver driver;
+	String driverhome=System.getProperty("user.dir");
+	String driverPath=driverhome+("//Drivers//chromedriver.exe");
+	System.getProperty("user.dir");
+	System.setProperty("webdriver.chrome.driver",driverPath);
+	 driver =new ChromeDriver();
+	 String NaukriURL="https://www.naukri.com/registration/createAccount";
+	 
+	 
+	 driver.get(NaukriURL);
+	 String firstname="jwala";
+	 String lastname="banala";
+	 String username="HLO";
+	 String password="welcome@456";
+	 
+	 Thread.sleep(6000);
+	 driver.quit();
+	}
+}
