@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="banking5">
+
+
+<listeners>
+
+<listener class-name="com.neo.bank.utillities.Reporting"/>
+
+</listeners>
+
+
+<test name="BankingAPP Test">
+
+<parameter name="browser" value="chrome"/>
+
+
+<classes>
+
+<class name="com.neo.bank.testcases.TestCase"/>
+
+<!-- <class name="com.neo.bank.testCases.TC_LoginDDT_002" />
+
+
+<class name="com.neo.bank.testCases.TC_AddCustomerTest_003"/>
+ -->
+</classes>
+
+</test>
+
+</suite>

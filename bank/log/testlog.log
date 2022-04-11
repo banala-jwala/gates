@@ -1,0 +1,23 @@
+2022-03-28 15:48:12,160 - bank -INFO - baseURL
+2022-03-28 15:48:12,370 - bank -INFO - enter username
+2022-03-28 15:48:12,913 - bank -INFO - enter password
+2022-03-28 15:48:14,250 - bank -INFO - click submit button
+2022-03-28 18:24:06,706 - bank -INFO - baseURL
+2022-03-28 18:24:07,020 - bank -INFO - enter username
+2022-03-28 18:24:07,201 - bank -INFO - enter password
+2022-03-28 18:24:10,142 - bank -INFO - click submit button
+2022-03-28 18:25:53,773 - bank -INFO - baseURL
+2022-03-28 18:25:53,944 - bank -INFO - enter username
+2022-03-28 18:25:54,094 - bank -INFO - enter password
+2022-03-28 18:25:55,548 - bank -INFO - click submit button
+2022-03-28 18:25:55,565 - bank -INFO - login test statement passed
+2022-03-29 11:19:24,904 - bank -INFO - baseURL
+2022-03-29 11:19:25,646 - bank -INFO - enter username
+2022-03-29 11:19:25,748 - bank -INFO - enter password
+2022-03-29 11:19:27,313 - bank -INFO - click submit button
+2022-03-29 11:19:27,341 - bank -INFO - login test statement passed
+2022-03-29 13:31:01,359 - bank -INFO - baseURL
+2022-03-29 13:31:02,248 - bank -INFO - enter username
+2022-03-29 13:31:02,413 - bank -INFO - enter password
+2022-03-29 13:31:04,606 - bank -INFO - click submit button
+2022-03-29 13:31:04,616 - bank -INFO - login test statement passed

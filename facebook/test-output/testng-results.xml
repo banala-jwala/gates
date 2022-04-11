@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T15:35:43 IST" name="facebook" finished-at="2022-03-20T15:35:52 IST" duration-ms="9204">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T15:35:43 IST" name="BankingApp Test" finished-at="2022-03-20T15:35:52 IST" duration-ms="9204">
+      <class name="com.neo.book.testdata.TestCases">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.neo.book.testdata.TestCases@1b11171f]" started-at="2022-03-20T15:35:44 IST" name="setup" finished-at="2022-03-20T15:35:50 IST" duration-ms="6281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:com.neo.book.testdata.TestCases@1b11171f]" started-at="2022-03-20T15:35:50 IST" name="test" finished-at="2022-03-20T15:35:52 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neo.book.testdata.TestCases@1b11171f]" started-at="2022-03-20T15:35:52 IST" name="tearDown" finished-at="2022-03-20T15:35:52 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.neo.book.testdata.TestCases -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- facebook -->
+</testng-results>

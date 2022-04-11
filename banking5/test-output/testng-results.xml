@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-20T15:25:01 IST" name="banking5" finished-at="2022-03-20T15:25:10 IST" duration-ms="9560">
+    <groups>
+    </groups>
+    <test started-at="2022-03-20T15:25:01 IST" name="BankingAPP Test" finished-at="2022-03-20T15:25:10 IST" duration-ms="9560">
+      <class name="com.neo.bank.testcases.TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.neo.bank.testcases.TestCase@1b11171f]" started-at="2022-03-20T15:25:01 IST" name="setup" finished-at="2022-03-20T15:25:08 IST" duration-ms="6701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:com.neo.bank.testcases.TestCase@1b11171f]" started-at="2022-03-20T15:25:08 IST" name="test" finished-at="2022-03-20T15:25:10 IST" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neo.bank.testcases.TestCase@1b11171f]" started-at="2022-03-20T15:25:10 IST" name="tearDown" finished-at="2022-03-20T15:25:10 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.neo.bank.testcases.TestCase -->
+    </test> <!-- BankingAPP Test -->
+  </suite> <!-- banking5 -->
+</testng-results>

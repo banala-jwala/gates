@@ -1,0 +1,5 @@
+2022-03-18 12:44:18,771 [main] INFO banking2 - URL is opened
+2022-03-18 12:44:18,994 [main] INFO banking2 - Entered username
+2022-03-18 12:44:19,266 [main] INFO banking2 - Entered password
+2022-03-18 12:44:20,848 [main] INFO banking2 - click submit
+2022-03-18 12:44:20,861 [main] INFO banking2 - login test passed
